@@ -34,11 +34,6 @@ var login = React.createClass({
           title: '广场',
           component: post
         });
-      } else {
-        _this.props.navigator.push({
-          title: '广场',
-          component: index
-        });
       }
     })
   },
